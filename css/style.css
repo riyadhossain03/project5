@@ -1,0 +1,142 @@
+
+* { 
+    margin: 0px; 
+    padding: 0px; }
+
+body { 
+    font-family: sans-serif;
+ }
+.container { 
+    width: 1200px; 
+    margin: auto; }
+.flex { 
+    display: flex; 
+    flex-wrap: wrap; }
+img { 
+    max-width: 100%; }
+
+.col-3 {
+    FONT-WEIGHT: 100;
+    max-width: 33.33%;
+    flex: 1 0 33.33%;
+    padding: 15px;
+    box-sizing: border-box;}
+header { 
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08); 
+}
+header .flex { 
+    align-items: center; 
+}
+.logo { 
+    flex-basis: 20%; 
+    max-width: 20%; 
+}
+.logo a { }
+.logo a img { }
+nav { 
+    flex-basis: 80%; 
+    max-width: 80%;}
+nav ul { 
+    display: flex; 
+    list-style: none; 
+    justify-content: flex-end; 
+}
+nav ul li { }
+nav ul li a { display: block;
+     padding: 16px; 
+     color: rgb(59, 80, 108); 
+     text-transform: capitalize; 
+     text-decoration: none;
+     font-size: 18px; 
+     font-weight: 400; }
+nav ul li a:hover { }
+.banner-section { 
+    padding: 50px 0px;
+ }
+.content { 
+    text-align: center; 
+}
+.content h1 {
+     font-size: 40px; 
+     color: rgb(59, 80, 108); }
+.content h1 span {
+     display: block;
+      color: rgb(12, 102, 255);
+     }
+.content img { 
+    max-width: 500px;
+ }
+.content p { 
+    color: rgba(59, 80, 108, 0.66);
+     max-width: 800px; 
+     margin: 20px auto; 
+     font-weight: 400; 
+     font-size: 16px;
+}
+.feature-section { }
+.feature-section .flex { 
+    justify-content: center; 
+}
+.feature-content { }
+.feature-content h2 {
+    font-size: 50px;
+    color: #050c14;
+    LINE-HEIGHT: 1;
+    FONT-WEIGHT: 800;
+}
+.feature-content h2 span {
+    color: #ff6484;}
+.feature-content p {
+    color: #3b506cdb;
+    margin: 5px auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+.text-right{
+    text-align: right;
+}
+.blog-section {
+    padding: 50px 0;
+}
+.post {
+    PADDING: 50PX 30PX;
+    TEXT-ALIGN: center;
+}
+.illus1 {
+    background: #fdebeda8;
+}
+.illus2 {
+    BACKGROUND: #EBF9F4;
+}
+.illus3 {
+    BACKGROUND: #FFF7E8;
+}
+.post h3 {
+    font-size: 22px;
+    color: #050c14;
+    LINE-HEIGHT: 1;
+    FONT-WEIGHT: 600;
+}
+.post p {
+    COLOR: #3B506CDB;
+    MARGIN: 5PX AUTO;
+    FONT-SIZE: 17PX;}
+.post img {
+    MAX-HEIGHT: 160PX;
+    DISPLAY: block;
+    MARGIN: auto;
+    MARGIN-BOTTOM: 25PX;
+}
+footer {
+    BACKGROUND: #0c66ff;
+    TEXT-ALIGN: center;
+    PADDING: 20PX 0;
+}
+footer p{
+    color: #dcc7c7;
+
+}
+footer p strong{
+    color: #fff;
+    letter-spacing: 3px;
+}
